@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como surgiu o mascote do Android</title>
+    <style>
+        @font-face {
+            font-family: 'idroid';
+            src: url('fontes/idroid.otf') format(OpenType);
+        }
+
+        html {
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        header {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to bottom, #b5e8c3, #65b8a6);
+            color: white;
+        }
+
+        h1, p {
+            text-align: center;
+            margin: 0;
+        }
+
+        nav {
+            background-color: #5db6a3;
+        }
+
+        nav>a {
+            color: white;
+            text-align: left;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .fundo {
+            background-color: #83e1ae;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .conteudo {
+            background-color: white;
+            width: 70%;
+            text-align: left;
+            padding: 20px;
+        }
+
+        .texto {
+            text-align: left;
+            text-indent: 3%;
+            font-size: 20px;
+        }
+
+        .personalizar {
+            color: rgb(0, 145, 0)
+        }
+
+        .titulo {
+            font-family: 'idroid', times, serif;
+            color: rgb(0, 80, 0);
+            font-size: 35px;
+            text-align: left;
+        }
+
+        h2 {
+            font-family: 'idroid', times, serif;
+            color: rgb(0, 110, 0);
+            background-image: linear-gradient(to right, #a9ffd7e1, #ffffff);
+            margin: 20px;
+        }
+
+        .links {
+            text-decoration: none;
+            color: green;
+        }
+
+        .video {
+            background-color: #344436;
+            width: 100%;
+            text-align: center;
+            padding: 5% 0% 5% 0%;
+            height: 600px;
+        }
+        /* .video iframe {
+            width: 70%;
+            height: 100%;
+        } */
+        .robo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .robo img {
+            width: 100%;
+        }
+
+        .robo h2 {
+            width: 100%;
+        }
+
+        .novo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .novo img {
+            width: 100%;
+        }
+
+        .novo h2 {
+            width: 100%;
+        }
+        .tabela {
+            background-color: #C5EBD6;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 30px;
+            padding: 0px;
+            border-radius: 20px;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+        }
+        .tabela h3 {
+            background-color: #30a865;
+            color: white;
+            width: 100%;
+            margin-top: 0px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            padding-left: 15px;
+            box-sizing: border-box;
+        }
+        .tabela ul {
+            height: 132px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            list-style: none;
+            justify-content: space-evenly;
+            width: 100%;
+            align-items: flex-start;
+        }
+        .tabela p{
+            text-align: left;
+            font-size: 20px;
+            align-self: flex-start;
+            text-indent: 30px;
+        }
+        footer {
+            background-color: #344436;
+            color: white;
+            padding: 5px;
+            text-align: center;
+        }
+        @media screen and (max-width: 480px) {
+            .tabela ul {
+                height: 100%;
+            }
+        }
+    </style>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bec89f4324.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>CURIOSIDADES DE TECNOLOGIA</h1>
+        <p>Tudo aquilo que você sempre quis saber sobre o mundo <br>
+            Tech, em um único lugar</p>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Curiosidades</a>
+            <a href="#">Fale conosco</a>
+        </nav>
+    </header>
+    <main>
+        <div class="fundo">
+            <div class="conteudo">
+                <h1 class="titulo">História do Mascote do Android</h1>
+                <p class="texto">Provavelmente você sabe que o sistema operacional <span
+                        class="personalizar">Android</span>, mantido pelo <span class="personalizar">Google</span> é um
+                    dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu
+                    simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender
+                    muita coisa sobre esse robozinho.</p>
+                <div class="robo">
+                    <h2>A primeira versão</h2>
+                    <p class="texto">A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor
+                        chamado <span class="personalizar"><a class="links" href="Dan Morrill.html" target="_blank">Dan
+                                Morrill</a></span> &#128279. Ele conta que abriu o <span class="personalizar"><a
+                                class="links" href="Inkscape.html" target="_blank">Inkscape</a></span> &#128279
+                        (software
+                        livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas
+                        personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa
+                        para a
+                        criação de um mascote.</p>
+                    <picture>
+                        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                        <img src="imagens/foto-g.png" alt="Imagem flexível">
+                    </picture>
+                    <p class="texto">Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam
+                        os
+                        Dandroids.</p>
+                </div>
+                <div class="novo">
+                    <h2>Surge um novo mascote</h2>
+                    <p class="texto">Ideia de ter um mascote foi amadurecendo e a missão foi passada para uma
+                        profissional
+                        da área. A ilustradora Russa <span class="personalizar"><a class="links" href="Irina blok.html"
+                                target="_blank">Irina Blok</a></span> &#128279, também funcionária do Google, ficou com
+                        a
+                        missão de representar o pequeno robô de uma maneira mais agradável.</p>
+                    <picture>
+                        <source media="(max-width: 750px)" srcset="imagens/irina-p.png" type="image/png">
+                        <source media="(max-width: 1050px)" srcset="imagens/irina-m.png" type="image/png">
+                        <img src="imagens/irina-g.png" alt="Imagem flexível">
+                    </picture>
+                    <p class="texto">A ideia principal da Irina era representar tudo graficamente com poucos traços e de
+                        forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu
+                        então o <span class="personalizar">Bugdroid</span>, o novo mascote do Android.</p>
+                    <picture>
+                        <source media="(max-width: 750px)" srcset="imagens/bug-p.png" type="image/png">
+                        <source media="(max-width: 1000px)" srcset="imagens/bug-m.png" type="image/png">
+                        <img src="imagens/bug-g.png" alt="Imagem flexível">
+                    </picture>
+                    <p class="texto">A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos
+                        que
+                        ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista
+                        estava
+                        criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação
+                        foi
+                        imediata: simples, limpo, objetivo.</p>
+                    <div class="video"><iframe width="80%" height="100%" src="https://www.youtube.com/embed/l2UDgpLz20M"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe></div>
+                </div>
+                <div class="tabela">
+                    <h3>Quer aprender mais?</h3>
+                    <p class="teste">Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p> 
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i> 1.5 - <abbr title="Cupcake">Cupcake</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 1.6 - <abbr title="Donut">Donut</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 3.0 - <abbr title="Bomba">Eclair</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 2.2 - <abbr title="Espumante">Froyo</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 2.3 - <abbr title="Pão de gengibre">Gingerbread</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 3.0 - <abbr title="Favo de mel">Honeycomb</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 4.0 - <abbr title="Sanduiche de sorvete">Ice Cream Sandwich</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 4.1 - <abbr title="Jujuba">Jelly Bean</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 4.4 - <abbr title="KitKat">KitKat</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 5.0 - <abbr title="Pirulito">Lolipop</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 6.0 - <abbr title="Marshmallow">Marshmallow</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 7.0 - <abbr title="Torrone">Nougat</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 8.0 - <abbr title="Oreo">Oreo</abbr></li>
+                            <li><i class="fa-solid fa-check"></i> 9.0 - <abbr title="Torta">Pie</abbr></li>
+                        </ul>
+                        <p>Infelizmente, o Android Q não existiu, pois o Google resolveu pôr fim a essa divertida prática e começou a usar numerações, o que deu origem ao Android 10.</p>
+                        <p>Acesse aqui o site Android History para conhecer a sequência das versões "adocicadas" e o que cada uma trouxe para o sistema Android.</p>
+                </div>
+                <p class="texto">Então é isso! Espero que você tenha gostado do nosso artigo com essa curiosidade sobre
+                    o sistema <span class="personalizar">Android</span> e seu simpático mascote.</p>
+            </div>
+        </main>
+        <footer>
+            Site criado por Victor Yudi para o Japa do Japão 
+        </footer>
+</body>
+</html>
